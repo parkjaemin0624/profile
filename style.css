@@ -1,0 +1,118 @@
+body {
+  background-color: #E8EEF3;
+  color: #949493;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: #5F7F99;
+  font-family: 'Changa', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 60px;
+  margin: 0px 0px 30px 0px;
+}
+
+h2 {
+  color:#995F67;
+  font-family:'Numans', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+p {
+  color: #96995F;
+  font-family:'Numans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+a {
+  color: rgba(180,180,180, 1);
+  text-decoration: none;
+  font-family:'Numans', sans-serif;
+}
+
+a:hover  {
+  color: #8996B9;
+}
+
+img {
+  height: 650px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 55px;
+  padding: 0px;
+}
+
+li {
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.btn-blue {
+  background-color: white;
+  border: 1px solid #4D5F27;
+  color: grey;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #8C9E66;
+  color: white;
+}
+
+.card {
+  background-color: #F7F9FC;
+  padding: 45px;
+  margin: 45px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+  border-radius: 5px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
